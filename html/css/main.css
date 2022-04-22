@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*슬라이더 이미지*/
+
+
+#slider {width: 100%; height: 600px;}
+#slider > img {width: 100%; height: 100%;}
+
+/*메인 Section*/
+section {width: 1260px; height: 2550px;}
+section > div > h3 {font-size: 30px; margin:10px; text-align: center; letter-spacing: 10px;}
+section > div > p {font-size: 12px; margin: 10px 0 35px 0px; text-align: center; color:gray; display: block;}
+
+/*첫번째 article*/
+#articlebox1 {width: 1200px; height:880px; float:left; margin:60px 0 10px 30px;}
+#articlebox1 > h3 {font-size: 30px; margin:10px; text-align: center; letter-spacing: 8px;}
+#articlebox1 > article > span {text-align: center; font-size: 13px; font-weight:bold; margin:10px 0 0 0px;}
+#articlebox1 > article > span > a {text-decoration:none; color:black;}
+#articlebox1 > article > span > a:hover {color: gray;}
+#articlebox1 > article > p {text-align:center; font-size: 12px; margin: 5px 0 0 0px; color: #666;}
+
+/*두번째 article*/
+#articlebox2 {width: 1200px; height:880px; float:left ;margin:60px 0 10px 30px;}
+#articlebox2 > .article2 > span {text-align: center; font-size: 13px; font-weight:bold; margin:10px 0 0 0px;}
+#articlebox2 > .article2 > span > a {text-decoration: none; color:black;}
+#articlebox2 > .article2 > span > a:hover {color: gray;}
+#articlebox2 > .article2 > p {text-align: center; font-size: 12px; margin: 5px 0 0 0px; color: #666;}
+#articlebox2 > .article2 > p:after {content:"10% 할인"; font-size: 12px; text-align: center; display:block; margin:5px 0 0 95px; color:tomato; width: 60px; border-radius: 10px;}
+
+/*세번째 article*/
+#articlebox3 {width: 1200px; height:480px; float:left ;margin:65px 0 10px 30px; background-color:#eee;}
+#articlebox3 > h3 {font-size: 30px; margin: 35px 0 10px 0px; text-align: center; letter-spacing: 8px;}
+#articlebox3 > article > span {text-align: center; font-size: 13px; font-weight:bold; margin:5px 0 0 0px;}
+#articlebox3 > article > span > a {text-decoration: none; color:black;}
+#articlebox3 > article > span > a:hover {color: gray;}
+#articlebox3 > article > p {text-align: center; font-size: 12px; margin: 10px 0 0 0px; color: #666;}
+
+/*article 이미지*/
+article {width: 250px; height: 310px; float:left; text-align: center; margin: 20px 25px;}
+article > a > img {width:100%; height: 75%; border-radius: 5px;}
